@@ -30,21 +30,6 @@ tanto a la página en vivo como a su código fuente.
 > Los enlaces de cada proyecto se editan a mano en `script.js`: cada entrada tiene
 > un campo `url` donde pones la dirección real de la página, y abre en la misma pestaña.
 
-## Estructura del proyecto
-
-```
-Mis-Paginas/
-├── Mis-Paginas-GithubPages/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-├── Mis-Paginas-InfinityFree/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-└── README.md
-```
-
 ## Proyectos
 
 | Proyecto | Descripción | Repositorio |
@@ -84,11 +69,6 @@ Mis-Paginas/
 - Diseño totalmente responsivo
 - Tema oscuro con acentos en degradado
 - Sin dependencias externas, carga instantánea
-
-## Personalización
-
-Para poner tu propia foto de perfil, abre el archivo `script.js` de cualquiera de las
-dos versiones y cambia la constante `AVATAR_URL` por la URL de tu imagen.
 
 ## Licencia
 
