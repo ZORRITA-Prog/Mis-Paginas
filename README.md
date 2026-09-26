@@ -72,4 +72,6 @@ Creador de todas las páginas: **k4927789-wq**
 
 [![GitHub](https://img.shields.io/badge/ZORRITA--Prog-Perfil%20de%20GitHub-7c5cff?style=for-the-badge&logo=github)](https://github.com/ZORRITA-Prog)
 
+## GitHub Versión 
+[link](https://zorrita-prog.github.io/Mis-Paginas/)
 </div>
