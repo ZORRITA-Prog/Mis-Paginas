@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mis Páginas | Portafolio</title>
+<meta name="description" content="Colección de todas mis páginas web en un solo lugar.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <img src="AVATAR" alt="Foto de perfil" class="avatar" id="avatar">
+  <h1>Mis <span>Páginas</span></h1>
+  <p>Todas mis páginas web reunidas en un solo lugar. Explora, filtra y entra a la que quieras.</p>
+  <span class="badge-host">HOST: InfinityFree</span>
+</header>
+
+<section class="controls">
+  <div class="search-box">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round">
+      <circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/>
+    </svg>
+    <input type="text" id="search" placeholder="Buscar una página...">
+  </div>
+  <div class="filters" id="filters"></div>
+</section>
+
+<main class="grid" id="grid"></main>
+
+<!-- Visor embebido de páginas -->
+<div id="viewer" class="viewer hidden">
+  <div class="viewer-bar">
+    <button type="button" id="btn-back" class="btn-back">← Volver al inicio</button>
+    <span id="viewer-title" class="viewer-title"></span>
+  </div>
+  <iframe id="viewer-frame" title="Vista de la página"></iframe>
+</div>
+
+<footer>
+  Creador de todas las páginas: <a href="https://github.com/ZORRITA-Prog" target="_blank" rel="noopener">k4927789-wq</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
