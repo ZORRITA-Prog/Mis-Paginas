@@ -20,16 +20,6 @@ y su propia dirección, pero desde aquí llegas a cualquiera con un solo clic.
 Las páginas incluyen: buscador en tiempo real, filtros por categoría y acceso directo
 tanto a la página en vivo como a su código fuente.
 
-## Versiones
-
-| Versión | Alojamiento | Carpeta |
-|---|---|---|
-| `Mis-Paginas-GithubPages` | GitHub Pages | Enlaces directos a cada subdominio de GitHub Pages |
-| `Mis-Paginas-InfinityFree` | InfinityFree | Enlaces relativos, solo hay que configurar el dominio en `script.js` |
-
-> Los enlaces de cada proyecto se editan a mano en `script.js`: cada entrada tiene
-> un campo `url` donde pones la dirección real de la página, y abre en la misma pestaña.
-
 ## Proyectos
 
 | Proyecto | Descripción | Repositorio |
